@@ -9,18 +9,14 @@ import ParticlesBackground from "./components/ParticlesBackground";
 const App: React.FC = () => {
     return (
         <Router>
-            <div className="relative min-h-screen bg-white dark:bg-neutral-900 text-gray-900 dark:text-gray-100 overflow-hidden">
-                {/* Particles Background */}
-                <div className="absolute inset-0 z-10">
-                    <ParticlesBackground />
-                </div>
+            <div className="relative min-h-screen bg-white dark:bg-neutral-900 text-gray-900 dark:text-gray-100">
+                {/* The ParticlesBackground is rendered via Portal, so it spans the entire document */}
+                <ParticlesBackground />
 
-                {/* Header */}
-                <header className="relative z-10">
-                    <Header />
-                </header>
+                {/* Header – ensure it has a higher z-index (e.g., Tailwind’s z-50) */}
+                <Header />
 
-                {/* Main Content */}
+                {/* Main Content with a higher z-index so it appears above the particles */}
                 <main className="relative z-10">
                     <Routes>
                         <Route path="/" element={<Work />} />

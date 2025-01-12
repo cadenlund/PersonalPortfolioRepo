@@ -32,8 +32,8 @@ const ParticlesBackground: React.FC = () => {
                 fullScreen: { enable: false }, // We control the canvas size manually
                 particles: {
                     number: {
-                        value: 70,
-                        density: { enable: true, value_area: 800 },
+                        value: 50,
+                        density: { enable: true, value_area: 700 },
                     },
                     color: { value: particleColor },
                     line_linked: {

@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     const activeIndex = location.pathname === '/projects' ? 1 : 0;
 
     return (
-        <header className="sticky top-0 bg-transparent">
+        <header className="sticky top-0 bg-transparent z-50">
             {/* Centered container with a limited width */}
             <div className=" px-8 py-4 flex justify-between items-center w-full">
                 {/* Left: Logo */}
