@@ -23,7 +23,7 @@ const ParticlesBackground: React.FC = () => {
 
     const particleColor = isDarkMode ? "#ffffff" : "#333333"; // White for dark mode, dark gray for light mode
     const lineColor = isDarkMode ? "#ffffff" : "#333333"; // Line colors for contrast
-
+    const lightModeOpacity = isDarkMode ? "0.3" : "0.9";
     return (
         <Particles
             id="tsparticles"
@@ -32,15 +32,15 @@ const ParticlesBackground: React.FC = () => {
                 fullScreen: { enable: false }, // We control the canvas size manually
                 particles: {
                     number: {
-                        value: 50,
-                        density: { enable: true, value_area: 500 },
+                        value: 70,
+                        density: { enable: true, value_area: 800 },
                     },
                     color: { value: particleColor },
                     line_linked: {
                         enable: true,
                         distance: 150,
                         color: lineColor,
-                        opacity: 0.2,
+                        opacity: lightModeOpacity,
                         width: 1,
                     },
                     opacity: { value: 0.5},
