@@ -12,19 +12,19 @@ const Header: React.FC = () => {
     return (
         <header className="sticky top-0 bg-transparent">
             {/* Centered container with a limited width */}
-            <div className=" px-4 py-4 flex justify-between items-center w-full">
+            <div className=" px-8 py-4 flex justify-between items-center w-full">
                 {/* Left: Logo */}
                 <Link to="/" className="text-2xl font-bold">
                     <div>
                         <div className="font-normal tracking-tight">Caden Lund</div>
-                        <div className="text-lg text-zinc-400">Pro Gooner</div>
+                        <div className="text-lg text-zinc-400">Ml Engineer</div>
                     </div>
                 </Link>
 
                 {/* Center: Navigation Pill */}
                 <nav
                     className="relative w-[200px] h-[50px]
-            bg-white bg-opacity-5  dark:bg-opacity-50 dark:bg-neutral-900
+             bg-opacity-5  dark:bg-opacity-50 dark:bg-neutral-900
             backdrop-blur-md py-3 px-4 rounded-full
             border border-black border-opacity-15 dark:border-white dark:border-opacity-10
             dark:shadow-md"
@@ -33,7 +33,7 @@ const Header: React.FC = () => {
                     <motion.div
                         animate={{ left: activeIndex === 0 ? '2%' : '50%' }}
                         transition={{ type: 'spring', stiffness: 500, damping: 40 }}
-                        className="absolute top-1 bottom-1 w-[48%] dark:bg-white opacity-20 dark:opacity-5 bg-neutral-900 rounded-full z-0 backdrop-blur-md"
+                        className="absolute top-1 bottom-1 w-[48%] dark:bg-white opacity-10 dark:opacity-5 bg-neutral-900 rounded-full z-0 backdrop-blur-md"
                     />
 
                     {/* Navlink for "Work" – centered at 25% */}
