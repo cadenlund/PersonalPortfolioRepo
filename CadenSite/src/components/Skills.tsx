@@ -19,16 +19,16 @@ const Skills: React.FC = () => {
                         <FaCode className="mr-2" /> Coding Languages
                     </h3>
                     <div className="flex flex-wrap gap-2 mt-6">
-                        <span className="bg-red-600 border border-red-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-red-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Python
                         </span>
-                        <span className="bg-red-600 border border-red-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-red-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Java
                         </span>
-                        <span className="bg-red-600 border border-red-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-red-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             JavaScript
                         </span>
-                        <span className="bg-red-600 border border-red-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-red-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             TypeScript
                         </span>
                     </div>
@@ -40,132 +40,106 @@ const Skills: React.FC = () => {
                         <FaRobot className="mr-2" /> ML Frameworks
                     </h3>
                     <div className="flex flex-wrap gap-2 mt-6">
-                        <span
-                            className="bg-blue-600 border border-blue-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-blue-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             TensorFlow
                         </span>
-                        <span
-                            className="bg-blue-600 border border-blue-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-blue-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             PyTorch
                         </span>
-                        <span
-                            className="bg-blue-600 border border-blue-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-blue-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Keras
                         </span>
-                        <span
-                            className="bg-blue-600 border border-blue-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-blue-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Scikit-learn
                         </span>
                     </div>
                 </div>
 
                 {/* Data Manipulation Box */}
-                <div
-                    className="col-start-5 col-span-2 row-start-2 row-span-2 bg-gray-200 dark:bg-neutral-800 rounded-lg shadow-lg p-4 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <div className="col-start-5 col-span-2 row-start-2 row-span-2 bg-gray-200 dark:bg-neutral-800 rounded-lg shadow-lg p-4 hover:shadow-xl hover:scale-105 transition-all duration-300">
                     <h3 className="text-lg font-medium text-gray-700 dark:text-gray-400 flex items-center">
                         <FaDatabase className="mr-2" /> Data Manipulation
                     </h3>
                     <div className="flex flex-wrap gap-2 mt-6">
-                        <span
-                            className="bg-green-600 border border-green-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-green-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Pandas
                         </span>
-                        <span
-                            className="bg-green-600 border border-green-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-green-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             NumPy
                         </span>
-                        <span
-                            className="bg-green-600 border border-green-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-green-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Matplotlib
                         </span>
-                        <span
-                            className="bg-green-600 border border-green-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-green-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             SciPy
                         </span>
                     </div>
                 </div>
 
                 {/* ML Concepts Box */}
-                <div
-                    className="col-start-1 col-span-2 row-start-4 row-span-2 bg-gray-200 dark:bg-neutral-800 rounded-lg shadow-lg p-4 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <div className="col-start-1 col-span-2 row-start-4 row-span-2 bg-gray-200 dark:bg-neutral-800 rounded-lg shadow-lg p-4 hover:shadow-xl hover:scale-105 transition-all duration-300">
                     <h3 className="text-lg font-medium text-gray-700 dark:text-gray-400 flex items-center">
                         <FaCog className="mr-2" /> ML Concepts
                     </h3>
                     <div className="flex flex-wrap gap-2 mt-6">
-                        <span
-                            className="bg-yellow-600 border border-yellow-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-yellow-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Computer Vision
                         </span>
-                        <span
-                            className="bg-yellow-600 border border-yellow-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-yellow-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Feature Engineering
                         </span>
-                        <span
-                            className="bg-yellow-600 border border-yellow-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-yellow-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Hyperparameter Tuning
                         </span>
-                        <span
-                            className="bg-yellow-600 border border-yellow-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-yellow-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Model Evaluation
                         </span>
-                        <span
-                            className="bg-yellow-600 border border-yellow-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-yellow-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Gradient Boosting
                         </span>
                     </div>
                 </div>
 
                 {/* Model Deployment Box */}
-                <div
-                    className="col-start-3 col-span-2 row-start-4 row-span-2 bg-gray-200 dark:bg-neutral-800 rounded-lg shadow-lg p-4 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <div className="col-start-3 col-span-2 row-start-4 row-span-2 bg-gray-200 dark:bg-neutral-800 rounded-lg shadow-lg p-4 hover:shadow-xl hover:scale-105 transition-all duration-300">
                     <h3 className="text-lg font-medium text-gray-700 dark:text-gray-400 flex items-center">
                         <FaCloud className="mr-2" /> Model Deployment
                     </h3>
                     <div className="flex flex-wrap gap-2 mt-6">
-                        <span
-                            className="bg-purple-600 border border-purple-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-purple-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Docker
                         </span>
-                        <span
-                            className="bg-purple-600 border border-purple-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-purple-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Flask
                         </span>
-                        <span
-                            className="bg-purple-600 border border-purple-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-purple-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Heroku
                         </span>
-                        <span
-                            className="bg-purple-600 border border-purple-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-purple-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Git
                         </span>
                     </div>
                 </div>
 
                 {/* UI/UX Design Box */}
-                <div
-                    className="col-start-5 col-span-2 row-start-4 row-span-2 bg-gray-200 dark:bg-neutral-800 rounded-lg shadow-lg p-4 hover:shadow-xl hover:scale-105 transition-all duration-300">
+                <div className="col-start-5 col-span-2 row-start-4 row-span-2 bg-gray-200 dark:bg-neutral-800 rounded-lg shadow-lg p-4 hover:shadow-xl hover:scale-105 transition-all duration-300">
                     <h3 className="text-lg font-medium text-gray-700 dark:text-gray-400 flex items-center">
                         <FaPaintBrush className="mr-2" /> UI/UX Design
                     </h3>
                     <div className="flex flex-wrap gap-2 mt-6">
-                        <span
-                            className="bg-teal-600 border border-teal-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-teal-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             React
                         </span>
-                        <span
-                            className="bg-teal-600 border border-teal-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-teal-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             TypeScript
                         </span>
-                        <span
-                            className="bg-teal-600 border border-teal-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-teal-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Tailwind CSS
                         </span>
-                        <span
-                            className="bg-teal-600 border border-teal-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-teal-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Vite
                         </span>
-                        <span
-                            className="bg-teal-600 border border-teal-800 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
+                        <span className="bg-teal-600 text-white text-sm font-medium px-2.5 py-0.5 rounded-full">
                             Figma
                         </span>
                     </div>

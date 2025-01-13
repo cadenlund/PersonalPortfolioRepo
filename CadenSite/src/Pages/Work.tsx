@@ -6,7 +6,7 @@ import Footer from "../components/Footer.tsx";
 
 const Work: React.FC = () => {
     return (
-        <section className=" transition-colors duration-100 mt-16 ">
+        <section className=" transition-colors duration-100 mt-24 ">
             <Hero />
             <Skills />
             <Footer />

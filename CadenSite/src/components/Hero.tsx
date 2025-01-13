@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
                         Machine Learning Developer
                     </h1>
                     <p className="text-lg text-gray-900 dark:text-gray-300 mb-6">
-                        I am a junior developer from specializing in machine learning with Python, Java, and TensorFlow,
+                        I am a junior developer from specializing in machine learning with Python and TensorFlow,
                         while also crafting responsive and user-friendly interfaces with React, TypeScript, and Tailwind.
                     </p>
 
@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
                     <div className="flex space-x-4 mt-4">
                         {/* GitHub Icon */}
                         <a
-                            href="https://github.com/yourusername"
+                            href="https://github.com/cadenlund"
                             target="_blank"
                             rel="noopener noreferrer"
                             data-tooltip-id="github-tooltip"
@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
 
                         {/* LinkedIn Icon */}
                         <a
-                            href="https://linkedin.com/in/yourusername"
+                            href="https://linkedin.com/in/caden-lund-330041292"
                             target="_blank"
                             rel="noopener noreferrer"
                             data-tooltip-id="linkedin-tooltip"
