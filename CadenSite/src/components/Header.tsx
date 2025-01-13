@@ -54,7 +54,7 @@ const Header: React.FC = () => {
                         className="absolute top-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 transition-colors duration-100"
                         style={{ left: "25%" }}
                     >
-                        <span className="font-normal">Work</span>
+                        <span className="font-normal">About</span>
                     </NavLink>
                     <NavLink
                         to="/projects"
