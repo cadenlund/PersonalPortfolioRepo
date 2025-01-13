@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
             <div className="grid gap-4 grid-cols-7 grid-rows-4 w-full h-full max-w-[1200px] relative">
                 {/* Introductory Text */}
                 <div className="col-start-1 col-span-4 row-start-1 row-span-2 flex flex-col justify-start">
-                    <p className="text-sm text-gray-900 dark:text-gray-300 mb-2">Hi, I'm Caden</p>
+                    <p className="text-xl text-gray-900 dark:text-gray-300 mb-2">Hi, I'm Caden</p>
                     <h1 className="text-5xl font-bold mb-4">
                         Machine Learning Developer
                     </h1>
